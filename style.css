@@ -1,0 +1,68 @@
+/* Google font integration */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Poppins:wght@400;600&display=swap");
+
+/* Default Styling */
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	scroll-behavior: smooth;
+	scrollbar-color: #ff5959;
+}
+
+/* Navigation Section Styling  */
+
+.navigation-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #ff5959;
+	padding: 15px 100px;
+	z-index: 10;
+	position: sticky;
+	top: 0px;
+}
+.logo h1 {
+	font-family: "Inter", sans-serif;
+	font-size: 30px;
+	color: whitesmoke;
+}
+
+.menu a {
+	padding: 5px 20px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: whitesmoke;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+}
+.menu a:hover {
+	background-color: white;
+	color: #ff5959;
+	transition: all 0.4s ease-in-out;
+	padding: 10px 25px;
+}
+
+.contact a {
+	padding: 10px 30px;
+	background-color: whitesmoke;
+	color: #ff5959;
+	text-decoration: none;
+	font-family: Poppins, sans-serif;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+	transition: all 0.4s ease-in-out;
+}
+
+.contact a:hover {
+	background-color: transparent;
+	border: 3px solid whitesmoke;
+	transition: all 0.4s ease-in-out;
+	color: whitesmoke;
+}
