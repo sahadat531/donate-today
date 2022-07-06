@@ -110,7 +110,7 @@
 }
 
 .hero a,
-.about a {
+.amount-box a {
 	width: 160px;
 	height: 56px;
 	background: #ff5959;
@@ -138,6 +138,7 @@
 /* Donate Section Styling */
 .donate {
 	padding: 135px 0px;
+	text-align: center;
 }
 .donate h1 {
 	font-size: 45px;
@@ -188,10 +189,7 @@
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 28px;
-	/* identical to box height, or 156% */
-
 	text-align: center;
-
 	color: #b3b3b3;
 }
 
@@ -200,4 +198,8 @@
 	height: 0px;
 	border: 1px solid #dadada;
 	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 40px;
 }
+
+/* Our Service Section Styling */
