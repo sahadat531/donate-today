@@ -75,13 +75,14 @@
 			#121212 0%,
 			rgba(18, 18, 18, 0) 100%
 		),
-		url(/images/Donation-hero.png);
+		url(./images/Donation-hero.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
 }
 
-.hero h1 {
+.hero h1,
+.donate h1 {
 	font-family: "Inter", sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -94,7 +95,8 @@
 	margin-bottom: 20px;
 }
 
-.hero p {
+.hero p,
+.donate p {
 	font-family: "Poppins";
 	font-style: normal;
 	font-weight: 400;
@@ -131,4 +133,71 @@
 	width: 658.26px;
 	height: 747.23px;
 	padding-left: 30px;
+}
+
+/* Donate Section Styling */
+.donate {
+	padding: 135px 0px;
+}
+.donate h1 {
+	font-size: 45px;
+	color: #121212;
+}
+.donate p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #707070;
+}
+.donation-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.donation-box {
+	background: #fafafa;
+	border-radius: 5px;
+	margin-right: 22px;
+	padding: 44px 23px;
+}
+
+.donation-box h1 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0px;
+	color: #707070;
+}
+.colored {
+	background: #ffeeee;
+	border: 2px solid #ff5959;
+	border-radius: 5px;
+	color: #ff5959;
+}
+.amount-box {
+	margin-top: 50px;
+}
+
+.amount-box h3 {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	/* identical to box height, or 156% */
+
+	text-align: center;
+
+	color: #b3b3b3;
+}
+
+.amount-box hr {
+	width: 765px;
+	height: 0px;
+	border: 1px solid #dadada;
+	margin: 0 auto;
 }
