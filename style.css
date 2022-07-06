@@ -239,6 +239,13 @@
 	text-align: start;
 	padding: 65px 25px;
 	margin-right: 25px;
+	transition: all 0.3s ease-in-out;
+}
+.service-box1:hover,
+.service-box2:hover,
+.service-box3:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
 }
 
 .service-box1 {
@@ -282,6 +289,7 @@
 	width: 358px;
 	text-align: start;
 	color: #707070;
+	margin-bottom: 0px;
 }
 
 /* Footer Section Styling */
